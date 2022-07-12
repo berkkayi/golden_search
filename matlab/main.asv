@@ -1,0 +1,5 @@
+%func = func;
+min_val=0; max_val=10; epsilon = 1e-5;
+[yp,p,iteration] = golden_search(@func,min_val,max_val,epsilon);
+disp("")
+%%
